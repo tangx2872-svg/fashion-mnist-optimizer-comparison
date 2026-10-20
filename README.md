@@ -1,4 +1,4 @@
-# Fashion-MNIST 优化器比较实验
+# Fashion-MNIST Optimizer Comparison
 
 一个简洁的 PyTorch 实验项目，在 Fashion-MNIST 数据集上比较四种常见优化器（SGD、Momentum、RMSProp、Adam）的性能差异。
 
@@ -15,6 +15,8 @@
 ## 数据集
 
 [Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist) 是一个服装图像分类数据集，包含 10 个类别（T恤、裤子、鞋子、包等），共 70,000 张 28×28 的灰度图像（训练集 60,000 张，测试集 10,000 张），常被用作 MNIST 的替代基准。
+
+![数据样本](figures/fashion_mnist_samples.png)
 
 ## 模型结构
 
@@ -77,6 +79,8 @@ optimizer-homework/
 ├── README.md
 ├── .gitignore
 ├── data/                   # Fashion-MNIST 数据集（不提交）
+├── report/
+│   └── 机器学习优化器比较实验报告.md  # 课程实验报告
 ├── results/
 │   ├── experiment2_tuned_lr.csv   # 主实验结果表
 │   ├── experiment1_same_lr.csv    # 第一轮（相同学习率）结果
@@ -108,6 +112,10 @@ python main.py
 ```
 
 运行完成后，结果表和图片会自动保存到 `results/` 与 `figures/` 目录。
+
+## Report
+
+完整的课程实验报告请见：[机器学习优化器比较实验报告](report/机器学习优化器比较实验报告.md)
 
 ## 实验结论
 
