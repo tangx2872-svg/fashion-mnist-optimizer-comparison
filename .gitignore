@@ -16,6 +16,9 @@ data/
 .vscode/
 .idea/
 
+# WorkBuddy 项目数据（不提交）
+.workbuddy/
+
 # 系统文件
 .DS_Store
 Thumbs.db
