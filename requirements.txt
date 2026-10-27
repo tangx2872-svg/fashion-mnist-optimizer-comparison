@@ -1,5 +1,6 @@
-torch
-torchvision
-matplotlib
-pandas
-numpy
+torch>=2.0
+torchvision>=0.15
+matplotlib>=3.5
+pandas>=1.5
+numpy>=1.23
+markdown>=3.4

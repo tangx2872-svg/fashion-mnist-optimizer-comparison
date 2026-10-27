@@ -12,6 +12,10 @@ __pycache__/
 # 数据集（体积较大，不提交）
 data/
 
+# 报告构建中间产物（公式图片缓存 / HTML 中间文件）
+report/figures/
+report/*.html
+
 # IDE
 .vscode/
 .idea/
